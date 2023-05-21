@@ -6,3 +6,7 @@ require 'sinatra/reloader'
 get '/' do
 	erb "Welcome!</a>"			
 end
+
+get '/new' do
+	erb :new
+end
